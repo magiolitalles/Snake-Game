@@ -4,6 +4,92 @@ Este é o repositório oficial do projeto em grupo para a disciplina de Programa
 
 ---
 
+## 🚀 Como Contribuir com o Projeto 
+
+> Este passo a passo é para quem está começando. Vamos trabalhar todos na mesma branch (`main`) para facilitar o processo.
+
+---
+
+### ✅ O que você precisa instalar
+
+1. **Java JDK** (8 ou superior):  
+   👉 https://www.oracle.com/java/technologies/javase-downloads.html  
+2. **Uma IDE para programar em Java:**  
+   - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) 
+   - ou [Eclipse](https://www.eclipse.org/downloads/)
+   - ou [Vs Code](https://code.visualstudio.com/download)
+   - ou [NetBeans](https://netbeans.apache.org/front/main/download/)
+3. **Opção A: Git** (para baixar e enviar código ao repositório GitHub via terminal)
+
+   👉 https://git-scm.com/downloads
+
+**Opção B: GitHub Desktop** (opcional, mas mais fácil para iniciantes):  
+   👉 https://desktop.github.com/
+
+---
+
+### 📌 Como Participar do Projeto
+
+#### 1️⃣ Criar conta no GitHub
+
+- Acesse: https://github.com/
+- Clique em **"Sign up"** e crie sua conta.
+- Envie seu **e-mail do GitHub** no grupo para ser adicionado ao repositório.
+
+---
+
+#### 2️⃣ Clonar o repositório (baixar o projeto no seu PC)
+
+#### 👉 Opção A: Usando o Terminal
+1. Copie o link do repositório (`https://github.com/seu-usuario/seu-repo.git](https://github.com/ferreiradrope/SnakeGame.git`)
+2. Abra o terminal (ou Git Bash) e digite:
+```bash
+git clone https://github.com/ferreiradrope/SnakeGame.git
+cd SnakeGame
+```
+
+#### 👉 Opção B: Usando GitHub Desktop (recomendado para iniciantes)
+1. Instale o GitHub Desktop: https://desktop.github.com/
+2. Clique em “Code” no repositório do projeto → “Open with GitHub Desktop”
+3. Escolha a pasta onde o projeto será salvo
+4. Abra a pasta no seu editor (IDE)
+---
+
+#### 3️⃣ Abrir o projeto na IDE (Eclipse/IntelliJ/NetBeans/VS Code)
+
+- Abra a IDE que você instalou.
+- Clique em **"Open"** ou **"Import Project"**.
+- Selecione a pasta onde você clonou o projeto.
+
+---
+
+#### 4️⃣ Editar o código
+
+- Faça suas alterações com cuidado.
+- Teste o que você programou antes de salvar.
+- Sempre salve os arquivos (Ctrl + S).
+
+---
+
+#### 5️⃣ Enviar para o GitHub (salvar na nuvem)
+
+##### 👉 Opção A: No GitHub Desktop:
+
+1. Vá na aba de **"Changes"**.
+2. Escreva uma mensagem em **"Summary"** explicando o que você fez (ex: `Adicionei colisão com a parede`).
+3. Clique em **"Commit to main"**.
+4. Depois clique em **"Push origin"** (envia para o GitHub).
+
+##### 👉 Opção B: Se estiver usando o terminal:
+
+```bash
+git add .
+git commit -m "Descreva o que foi feito"
+git push origin main
+```
+
+---
+
 ## 🧪 Tecnologias Utilizadas
 
 - **Java SE**
@@ -74,3 +160,12 @@ O grupo apresentará o projeto através de **vídeo gravado com até 5 minutos**
 🎥 Link do vídeo (se gravado): _[a ser inserido]_
 
 📄 Documentação do projeto: _[link para o Google Docs ou PDF]_
+
+---
+
+#### ❗ Regras importantes 
+- Evite trabalhar ao mesmo tempo que outra pessoa para não gerar conflito.
+-Sempre avise no grupo antes de subir algo na main.
+-Faça commits pequenos e frequentes (ex: uma funcionalidade por vez).
+-Teste tudo antes de dar push.
+
