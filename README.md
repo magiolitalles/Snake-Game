@@ -46,7 +46,7 @@ Todos os membros participarão ativamente de todas as etapas. Marcaremos aqui o 
 
 ## ⏱️ Cronograma do Projeto
 
-| Etapa | Data Limite |
+| Etapa | Prazo |
 |-------|-------------|
 | Definição do tema e tecnologias | 14/05 |
 | Criação do repositório e organização inicial | 15/05 |
