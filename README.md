@@ -56,7 +56,6 @@ O grupo apresentará o projeto através de **vídeo gravado com até 5 minutos**
 - Clique em **"Sign up"** e crie sua conta.
 - Envie seu **e-mail do GitHub** no grupo para ser adicionado ao repositório.
 
----
 
 #### 2️⃣ Clonar o repositório (baixar o projeto no seu PC)
 
@@ -74,7 +73,6 @@ cd SnakeGame
 3. Escolha a pasta onde o projeto será salvo
 4. Abra a pasta no seu editor (IDE)
 
----
 
 #### 3️⃣ Abrir o projeto na IDE (Eclipse/IntelliJ/NetBeans/VS Code)
 
@@ -82,7 +80,6 @@ cd SnakeGame
 - Clique em **"Open"** ou **"Import Project"**.
 - Selecione a pasta onde você clonou o projeto.
 
----
 
 #### 4️⃣ Editar o código
 
@@ -90,7 +87,6 @@ cd SnakeGame
 - Teste o que você programou antes de salvar.
 - Sempre salve os arquivos (Ctrl + S).
 
----
 
 #### 5️⃣ Enviar para o GitHub (salvar na nuvem)
 
