@@ -1,6 +1,6 @@
 # 🐍 Snake Game - Projeto Java
 
-Este é o repositório oficial do projeto em grupo para a disciplina de Programação de Soluções no semestre. O objetivo é desenvolver uma versão personalizada do clássico **Jogo da Cobrinha**, utilizando **Java**, com **interface gráfica**, **orientação a objetos**, **salvamento em arquivo `.txt`**, e aplicação de conceitos aprendidos ao longo do curso.
+Este é o repositório oficial do projeto em grupo para a disciplina de Programação de Soluções no semestre 25.1. O objetivo é desenvolver uma versão personalizada do clássico **Jogo da Cobrinha**, utilizando **Java**, com **interface gráfica**, **orientação a objetos**, **salvamento em arquivo `.txt`**, e aplicação de conceitos aprendidos ao longo do curso.
 
 ---
 
@@ -52,7 +52,8 @@ Todos os membros participarão ativamente de todas as etapas. Marcaremos aqui o 
 | Criação do repositório e organização inicial | 15/05 |
 | Desenvolvimento inicial do jogo | 16/05 a 25/05 |
 | Testes e melhorias | 26/05 a 05/06 |
-| Finalização da documentação | 06/06 a 10/06 |
+| Finalização da documentação |
+ 06/06 a 10/06 |
 | Entrega e apresentação do projeto | 12/06 ou 13/06 |
 
 ---
