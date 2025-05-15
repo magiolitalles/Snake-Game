@@ -23,7 +23,8 @@ Este é o repositório oficial do projeto em grupo para a disciplina de Programa
 
    👉 https://git-scm.com/downloads
 
-**Opção B: GitHub Desktop** (opcional, mas mais fácil para iniciantes):  
+   **Opção B: GitHub Desktop** (opcional, mas mais fácil para iniciantes):  
+   
    👉 https://desktop.github.com/
 
 ---
@@ -53,6 +54,7 @@ cd SnakeGame
 2. Clique em “Code” no repositório do projeto → “Open with GitHub Desktop”
 3. Escolha a pasta onde o projeto será salvo
 4. Abra a pasta no seu editor (IDE)
+
 ---
 
 #### 3️⃣ Abrir o projeto na IDE (Eclipse/IntelliJ/NetBeans/VS Code)
