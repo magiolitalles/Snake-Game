@@ -19,14 +19,10 @@ Este é o repositório oficial do projeto em grupo para a disciplina de Programa
    - ou [Eclipse](https://www.eclipse.org/downloads/)
    - ou [Vs Code](https://code.visualstudio.com/download)
    - ou [NetBeans](https://netbeans.apache.org/front/main/download/)
-3. **Opção A: Git** (para baixar e enviar código ao repositório GitHub via terminal)
-
-   👉 https://git-scm.com/downloads
-
-   **Opção B: GitHub Desktop** (opcional, mas mais fácil para iniciantes):  
-   
-   👉 https://desktop.github.com/
-
+3. **Git ou GitHub Desktop** (para baixar e enviar código ao repositório GitHub)
+   - [Git](https://git-scm.com/downloads) 
+   - ou [GitHub Desktop](https://desktop.github.com/)(Mais fácil para iniciantes)
+    
 ---
 
 ### 📌 Como Participar do Projeto
