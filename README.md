@@ -14,20 +14,46 @@ Este é o repositório oficial do projeto em grupo para a disciplina de Programa
 ---
 
 ## 📌 Divisão de Tarefas
+Todos os membros participarão ativamente de todas as etapas. Marcaremos aqui o progresso e quem contribuiu em cada etapa:
 
-- [ ] Estrutura inicial do projeto no GitHub
-- [ ] Criação das classes principais (Snake, Food, Game, etc.)
-- [ ] Implementação da lógica de movimentação da cobrinha
-- [ ] Implementação da detecção de colisão (com comida, paredes e corpo)
-- [ ] Interface gráfica (com JFrame e JPanel)
-- [ ] Tela de início e fim de jogo
-- [ ] Sistema de pontuação
-- [ ] Salvamento e leitura do jogo com arquivo `.txt`
-- [ ] Aplicação de herança e polimorfismo no código
-- [ ] Testes e correções de bugs
-- [ ] Criação da documentação do projeto
-- [ ] Criação da apresentação (slides ou vídeo)
-- [ ] Envio da documentação final e código no prazo
+- [ ] **Estrutura inicial do projeto no GitHub**  
+  Participantes: _[Adicionar nomes aqui]_
+
+- [ ] **Criação das classes principais (Snake, Food, Game, etc.)**  
+  Participantes: _[Adicionar nomes aqui]_
+
+- [ ] **Implementação da lógica de movimentação da cobrinha**  
+  Participantes: _[Adicionar nomes aqui]_
+
+- [ ] **Implementação da detecção de colisão (com comida, paredes e corpo)**  
+  Participantes: _[Adicionar nomes aqui]_
+
+- [ ] **Interface gráfica (com JFrame e JPanel)**  
+  Participantes: _[Adicionar nomes aqui]_
+
+- [ ] **Tela de início e fim de jogo**  
+  Participantes: _[Adicionar nomes aqui]_
+
+- [ ] **Sistema de pontuação**  
+  Participantes: _[Adicionar nomes aqui]_
+
+- [ ] **Salvamento e leitura do jogo com arquivo `.txt`**  
+  Participantes: _[Adicionar nomes aqui]_
+
+- [ ] **Aplicação de herança e polimorfismo no código**  
+  Participantes: _[Adicionar nomes aqui]_
+
+- [ ] **Testes e correções de bugs**  
+  Participantes: _[Adicionar nomes aqui]_
+
+- [ ] **Criação da documentação do projeto**  
+  Participantes: _[Adicionar nomes aqui]_
+
+- [ ] **Criação da apresentação (slides ou vídeo)**  
+  Participantes: _[Adicionar nomes aqui]_
+
+- [ ] **Envio da documentação final e código no prazo**  
+  Participantes: _[Adicionar nomes aqui]_
 
 ---
 
