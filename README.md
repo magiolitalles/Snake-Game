@@ -33,7 +33,7 @@ O grupo apresentará o projeto através de **vídeo gravado com até 5 minutos**
 
 ---
 
-### 🚀 Para começar a contribur com o projeto, primeiro devemos preparar o ambiente de desenvolvimento. O que você precisa instalar: 
+## 🚀 Para começar a contribur com o projeto, primeiro devemos preparar o ambiente de desenvolvimento. O que você precisa instalar: 
 
 #### 1️⃣ **Java JDK** (8 ou superior):  
    - [Java SE Development Kit](https://www.oracle.com/java/technologies/javase-downloads.html)
@@ -48,7 +48,7 @@ O grupo apresentará o projeto através de **vídeo gravado com até 5 minutos**
     
 ---
 
-### 🖥️ Após preparar o ambientente de desenvolvimente devemos seguir os seguintes passos para editar e publicar o código:
+## 🖥️ Após preparar o ambientente de desenvolvimente devemos seguir os seguintes passos para editar e publicar o código:
 
 #### 1️⃣ Criar conta no GitHub
 
