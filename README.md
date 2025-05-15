@@ -52,8 +52,7 @@ Todos os membros participarão ativamente de todas as etapas. Marcaremos aqui o 
 | Criação do repositório e organização inicial | 15/05 |
 | Desenvolvimento inicial do jogo | 16/05 a 25/05 |
 | Testes e melhorias | 26/05 a 05/06 |
-| Finalização da documentação |
- 06/06 a 10/06 |
+| Finalização da documentação | 06/06 a 10/06 |
 | Entrega e apresentação do projeto | 12/06 ou 13/06 |
 
 ---
