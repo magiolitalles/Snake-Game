@@ -14,46 +14,33 @@ Este é o repositório oficial do projeto em grupo para a disciplina de Programa
 ---
 
 ## 📌 Divisão de Tarefas
-Todos os membros participarão ativamente de todas as etapas. Marcaremos aqui o progresso e quem contribuiu em cada etapa:
+Todos os membros participarão ativamente de todas as etapas. Marcaremos aqui o progresso em cada etapa:
 
 - [X] **Estrutura inicial do projeto no GitHub**  
-  Participantes: _[Pedro Henrique Ferreira]_
 
 - [ ] **Criação das classes principais (Snake, Food, Game, etc.)**  
-  Participantes: _[Adicionar nomes aqui]_
 
 - [ ] **Implementação da lógica de movimentação da cobrinha**  
-  Participantes: _[Adicionar nomes aqui]_
 
 - [ ] **Implementação da detecção de colisão (com comida, paredes e corpo)**  
-  Participantes: _[Adicionar nomes aqui]_
 
 - [ ] **Interface gráfica (com JFrame e JPanel)**  
-  Participantes: _[Adicionar nomes aqui]_
 
 - [ ] **Tela de início e fim de jogo**  
-  Participantes: _[Adicionar nomes aqui]_
-
+ 
 - [ ] **Sistema de pontuação**  
-  Participantes: _[Adicionar nomes aqui]_
 
 - [ ] **Salvamento e leitura do jogo com arquivo `.txt`**  
-  Participantes: _[Adicionar nomes aqui]_
-
+ 
 - [ ] **Aplicação de herança e polimorfismo no código**  
-  Participantes: _[Adicionar nomes aqui]_
 
 - [ ] **Testes e correções de bugs**  
-  Participantes: _[Adicionar nomes aqui]_
-
+ 
 - [ ] **Criação da documentação do projeto**  
-  Participantes: _[Adicionar nomes aqui]_
 
 - [ ] **Criação da apresentação (slides ou vídeo)**  
-  Participantes: _[Adicionar nomes aqui]_
 
 - [ ] **Envio da documentação final e código no prazo**  
-  Participantes: _[Adicionar nomes aqui]_
 
 ---
 
