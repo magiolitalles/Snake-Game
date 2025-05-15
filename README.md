@@ -4,13 +4,36 @@ Este é o repositório oficial do projeto em grupo para a disciplina de Programa
 
 ---
 
-## 🚀 Como Contribuir com o Projeto 
+## 🧪 Tecnologias Utilizadas
 
-> Este passo a passo é para quem está começando. Vamos trabalhar todos na mesma branch (`main`) para facilitar o processo.
+- **Java SE**
+- **Interface Gráfica**
+- **Salvamento de dados com arquivos `.txt`**
+- **Git + GitHub** para controle de versão e colaboração
 
 ---
 
-### ✅ O que você precisa instalar
+## 🎯 Objetivos Técnicos
+
+- ✅ Uso de **classes criadas pelo grupo**
+- ✅ Aplicação de **herança e polimorfismo**
+- ✅ **Leitura e escrita** de dados em arquivo `.txt`
+- ✅ **Interface gráfica funcional**
+- ✅ Código limpo, modularizado e bem documentado
+
+---
+
+## 📽️ Apresentação e Documentação
+
+O grupo apresentará o projeto através de **vídeo gravado com até 5 minutos** de duração ou **ao vivo**, conforme agendamento com a turma.
+
+🎥 Link do vídeo (se gravado): _[a ser inserido]_
+
+📄 Documentação do projeto: _[link para o Google Docs ou PDF]_
+
+---
+
+### ✅ Para começar a contribur com o projeto, primeiro devemos preparar o ambiente de desenvolvimento. O que você precisa instalar: 
 
 1. **Java JDK** (8 ou superior):  
    👉 https://www.oracle.com/java/technologies/javase-downloads.html  
@@ -25,7 +48,7 @@ Este é o repositório oficial do projeto em grupo para a disciplina de Programa
     
 ---
 
-### 📌 Como Participar do Projeto
+### 📌 Após preparar o ambientente de desenvolvimente devemos seguir os seguintes passos para editar e publicar o código:
 
 #### 1️⃣ Criar conta no GitHub
 
@@ -38,7 +61,7 @@ Este é o repositório oficial do projeto em grupo para a disciplina de Programa
 #### 2️⃣ Clonar o repositório (baixar o projeto no seu PC)
 
 #### 👉 Opção A: Usando o Terminal
-1. Copie o link do repositório (`https://github.com/seu-usuario/seu-repo.git](https://github.com/ferreiradrope/SnakeGame.git`)
+1. Copie o link do repositório (`https://github.com/ferreiradrope/SnakeGame.git`)
 2. Abra o terminal (ou Git Bash) e digite:
 ```bash
 git clone https://github.com/ferreiradrope/SnakeGame.git
@@ -71,29 +94,19 @@ cd SnakeGame
 
 #### 5️⃣ Enviar para o GitHub (salvar na nuvem)
 
-##### 👉 Opção A: No GitHub Desktop:
-
-1. Vá na aba de **"Changes"**.
-2. Escreva uma mensagem em **"Summary"** explicando o que você fez (ex: `Adicionei colisão com a parede`).
-3. Clique em **"Commit to main"**.
-4. Depois clique em **"Push origin"** (envia para o GitHub).
-
-##### 👉 Opção B: Se estiver usando o terminal:
+##### 👉 Opção A: Se estiver usando o terminal:
 
 ```bash
 git add .
 git commit -m "Descreva o que foi feito"
 git push origin main
 ```
+##### 👉 Opção B: No GitHub Desktop:
 
----
-
-## 🧪 Tecnologias Utilizadas
-
-- **Java SE**
-- **Interface Gráfica com Swing**
-- **Salvamento de dados com arquivos `.txt`**
-- **Git + GitHub** para controle de versão e colaboração
+1. Vá na aba de **"Changes"**.
+2. Escreva uma mensagem em **"Summary"** explicando o que você fez (ex: `Adicionei colisão com a parede`).
+3. Clique em **"Commit to main"**.
+4. Depois clique em **"Push origin"** (envia para o GitHub).
 
 ---
 
@@ -138,26 +151,6 @@ Todos os membros participarão ativamente de todas as etapas. Marcaremos aqui o 
 | Testes e melhorias | 26/05 a 05/06 |
 | Finalização da documentação | 06/06 a 10/06 |
 | Entrega e apresentação do projeto | até 13/06 |
-
----
-
-## 🎯 Objetivos Técnicos
-
-- ✅ Uso de **classes criadas pelo grupo**
-- ✅ Aplicação de **herança e polimorfismo**
-- ✅ **Leitura e escrita** de dados em arquivo `.txt`
-- ✅ **Interface gráfica funcional**
-- ✅ Código limpo, modularizado e bem documentado
-
----
-
-## 📽️ Apresentação
-
-O grupo apresentará o projeto através de **vídeo gravado com até 5 minutos** de duração ou **ao vivo**, conforme agendamento com a turma.
-
-🎥 Link do vídeo (se gravado): _[a ser inserido]_
-
-📄 Documentação do projeto: _[link para o Google Docs ou PDF]_
 
 ---
 
