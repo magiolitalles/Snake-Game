@@ -4,7 +4,7 @@ Este é o repositório oficial do projeto em grupo para a disciplina de Programa
 
 ---
 
-## 🧪 Tecnologias Utilizadas
+## 🌐 Tecnologias Utilizadas
 
 - **Java SE**
 - **Interface Gráfica**
@@ -15,11 +15,11 @@ Este é o repositório oficial do projeto em grupo para a disciplina de Programa
 
 ## 🎯 Objetivos Técnicos
 
-- ✅ Uso de **classes criadas pelo grupo**
-- ✅ Aplicação de **herança e polimorfismo**
-- ✅ **Leitura e escrita** de dados em arquivo `.txt`
-- ✅ **Interface gráfica funcional**
-- ✅ Código limpo, modularizado e bem documentado
+-  Uso de **classes criadas pelo grupo**
+-  Aplicação de **herança e polimorfismo**
+-  **Leitura e escrita** de dados em arquivo `.txt`
+-  **Interface gráfica funcional**
+-  Código limpo, modularizado e bem documentado
 
 ---
 
@@ -33,22 +33,22 @@ O grupo apresentará o projeto através de **vídeo gravado com até 5 minutos**
 
 ---
 
-### ✅ Para começar a contribur com o projeto, primeiro devemos preparar o ambiente de desenvolvimento. O que você precisa instalar: 
+### 🚀 Para começar a contribur com o projeto, primeiro devemos preparar o ambiente de desenvolvimento. O que você precisa instalar: 
 
-1. **Java JDK** (8 ou superior):  
-   👉 https://www.oracle.com/java/technologies/javase-downloads.html  
-2. **Uma IDE para programar em Java:**  
+1️⃣ **Java JDK** (8 ou superior):  
+   - [Java SE Development Kit](https://www.oracle.com/java/technologies/javase-downloads.html)
+2️⃣ **Uma IDE para programar em Java:**  
    - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) 
    - ou [Eclipse](https://www.eclipse.org/downloads/)
    - ou [Vs Code](https://code.visualstudio.com/download)
    - ou [NetBeans](https://netbeans.apache.org/front/main/download/)
-3. **Git ou GitHub Desktop** (para baixar e enviar código ao repositório GitHub)
+3️⃣ **Git ou GitHub Desktop** (para baixar e enviar código ao repositório GitHub)
    - [Git](https://git-scm.com/downloads) 
    - ou [GitHub Desktop](https://desktop.github.com/)(Mais fácil para iniciantes)
     
 ---
 
-### 📌 Após preparar o ambientente de desenvolvimente devemos seguir os seguintes passos para editar e publicar o código:
+### 🖥️ Após preparar o ambientente de desenvolvimente devemos seguir os seguintes passos para editar e publicar o código:
 
 #### 1️⃣ Criar conta no GitHub
 
@@ -141,7 +141,7 @@ Todos os membros participarão ativamente de todas as etapas. Marcaremos aqui o 
 
 ---
 
-## ⏱️ Cronograma do Projeto
+## 📅 Cronograma do Projeto
 
 | Etapa | Prazo |
 |-------|-------------|
