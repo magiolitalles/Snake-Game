@@ -15,15 +15,19 @@ Este é o repositório oficial do projeto em grupo para a disciplina de Programa
 
 ## 📌 Divisão de Tarefas
 
-| Estrutura de Classes e Orientação a Objetos | 
-| Lógica da Cobrinha (movimentação, colisões) | 
-| Sistema de Pontuação e Comida | 
-| Interface Gráfica (JFrame, JPanel) |
-| Sistema de Salvamento/Leitura em `.txt` |
-| Tela inicial, fim de jogo e reinício |
-| Testes e revisão do código |
-| Documentação escrita (.docx, slides) |
-| Apresentação e gravação de vídeo |
+- [ ] Estrutura inicial do projeto no GitHub
+- [ ] Criação das classes principais (Snake, Food, Game, etc.)
+- [ ] Implementação da lógica de movimentação da cobrinha
+- [ ] Implementação da detecção de colisão (com comida, paredes e corpo)
+- [ ] Interface gráfica (com JFrame e JPanel)
+- [ ] Tela de início e fim de jogo
+- [ ] Sistema de pontuação
+- [ ] Salvamento e leitura do jogo com arquivo `.txt`
+- [ ] Aplicação de herança e polimorfismo no código
+- [ ] Testes e correções de bugs
+- [ ] Criação da documentação do projeto
+- [ ] Criação da apresentação (slides ou vídeo)
+- [ ] Envio da documentação final e código no prazo
 
 ---
 
