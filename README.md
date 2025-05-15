@@ -156,7 +156,7 @@ Todos os membros participarão ativamente de todas as etapas. Marcaremos aqui o 
 
 #### ❗ Regras importantes 
 - Evite trabalhar ao mesmo tempo que outra pessoa para não gerar conflito.
--Sempre avise no grupo antes de subir algo na main.
--Faça commits pequenos e frequentes (ex: uma funcionalidade por vez).
--Teste tudo antes de dar push.
+- Sempre avise no grupo antes de subir algo na main.
+- Faça commits pequenos e frequentes (ex: uma funcionalidade por vez).
+- Teste tudo antes de dar push.
 
