@@ -16,7 +16,7 @@ Este é o repositório oficial do projeto em grupo para a disciplina de Programa
 ## 📌 Divisão de Tarefas
 Todos os membros participarão ativamente de todas as etapas. Marcaremos aqui o progresso e quem contribuiu em cada etapa:
 
-- [x] **Estrutura inicial do projeto no GitHub**  
+- [✅] **Estrutura inicial do projeto no GitHub**  
   Participantes: _[Adicionar nomes aqui]_
 
 - [ ] **Criação das classes principais (Snake, Food, Game, etc.)**  
