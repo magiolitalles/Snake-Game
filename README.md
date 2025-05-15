@@ -35,14 +35,14 @@ O grupo apresentará o projeto através de **vídeo gravado com até 5 minutos**
 
 ### 🚀 Para começar a contribur com o projeto, primeiro devemos preparar o ambiente de desenvolvimento. O que você precisa instalar: 
 
-1️⃣ **Java JDK** (8 ou superior):  
+#### 1️⃣ **Java JDK** (8 ou superior):  
    - [Java SE Development Kit](https://www.oracle.com/java/technologies/javase-downloads.html)
-2️⃣ **Uma IDE para programar em Java:**  
+#### 2️⃣ **Uma IDE para programar em Java:**  
    - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) 
    - ou [Eclipse](https://www.eclipse.org/downloads/)
    - ou [Vs Code](https://code.visualstudio.com/download)
    - ou [NetBeans](https://netbeans.apache.org/front/main/download/)
-3️⃣ **Git ou GitHub Desktop** (para baixar e enviar código ao repositório GitHub)
+#### 3️⃣ **Git ou GitHub Desktop** (para baixar e enviar código ao repositório GitHub)
    - [Git](https://git-scm.com/downloads) 
    - ou [GitHub Desktop](https://desktop.github.com/)(Mais fácil para iniciantes)
     
