@@ -11,6 +11,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyListener;
 import java.awt.event.KeyEvent;
+import javax.swing.JOptionPane;
 
 public class Tabuleiro extends JPanel implements ActionListener, KeyListener {
     private static final int TAMANHO_BLOCO = 40;
@@ -126,6 +127,7 @@ public class Tabuleiro extends JPanel implements ActionListener, KeyListener {
         if (cabeca.getX() < 0 || cabeca.getX() >= maxX || cabeca.getY() < 0 || cabeca.getY() >= maxY) {
             emJogo = false;
             timer.stop();
+            salvarPontuacaoSeNecessario();
             // Opcional: mostrar mensagem de Game Over
         }
     }
@@ -137,10 +139,19 @@ public class Tabuleiro extends JPanel implements ActionListener, KeyListener {
             if (cabeca.equals(corpo.get(i))) {
                 emJogo = false;
                 timer.stop();
+                salvarPontuacaoSeNecessario();
                 // Opcional: mostrar mensagem de Game Over
                 break;
             }
         }
+    }
+
+    private void salvarPontuacaoSeNecessario() {
+        String nome = JOptionPane.showInputDialog(this, "Digite seu nome para o ranking:", "Game Over", JOptionPane.PLAIN_MESSAGE);
+        if (nome == null || nome.trim().isEmpty()) {
+            nome = "Anônimo";
+        }
+        Ranking.salvarScore(nome, pontuacao);
     }
 
     private void desenharPontuacao(Graphics g) {
