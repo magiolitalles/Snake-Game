@@ -1,8 +1,10 @@
 import javax.swing.JPanel;
 import javax.swing.Timer;
+import javax.swing.ImageIcon;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
+import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyListener;
@@ -19,6 +21,10 @@ public class Tabuleiro extends JPanel implements ActionListener, KeyListener {
     private boolean deveCrescer = false;
     private boolean emJogo = true;
     private int pontuacao;
+    private Image imgTubarao;
+    private Image imgCorpoTubarao;
+    private Image imgPeixe;
+    private Image imgFundo;
 
     public Tabuleiro(int largura, int altura) {
         this.largura = largura;
@@ -32,32 +38,38 @@ public class Tabuleiro extends JPanel implements ActionListener, KeyListener {
         requestFocusInWindow();
         comida = new Comida();
         posicionarNovaComida();
+        imgTubarao = new ImageIcon("tubarao.png").getImage();
+        imgCorpoTubarao = new ImageIcon("corpo_tubarao.png").getImage(); // nova imagem para o corpo
+        imgPeixe = new ImageIcon("peixe.png").getImage();
+        imgFundo = new ImageIcon("fundo_mar.png").getImage(); // imagem do fundo do mar
     }
 
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
+
+        // Desenhar fundo do mar
+        g.drawImage(imgFundo, 0, 0, getWidth(), getHeight(), this);
+
         java.util.List<Ponto> segmentos = cobra.getSegmentos();
-        // Desenha o corpo da cobra como círculos
         for (int i = 0; i < segmentos.size(); i++) {
             Ponto p = segmentos.get(i);
+            int x = p.getX() * TAMANHO_BLOCO;
+            int y = p.getY() * TAMANHO_BLOCO;
             if (i == 0) {
-                // Cabeça: cor diferente
-                g.setColor(Color.YELLOW);
+                // Cabeça do tubarão
+                g.drawImage(imgTubarao, x, y, TAMANHO_BLOCO, TAMANHO_BLOCO, this);
             } else {
-                g.setColor(cobra.getCor());
+                // Corpo do tubarão com imagem
+                g.drawImage(imgCorpoTubarao, x, y, TAMANHO_BLOCO, TAMANHO_BLOCO, this);
             }
-            g.fillOval(p.getX() * TAMANHO_BLOCO, p.getY() * TAMANHO_BLOCO, TAMANHO_BLOCO, TAMANHO_BLOCO);
-            // Contorno preto
-            g.setColor(Color.BLACK);
-            g.drawOval(p.getX() * TAMANHO_BLOCO, p.getY() * TAMANHO_BLOCO, TAMANHO_BLOCO, TAMANHO_BLOCO);
         }
-        // Comida como círculo vermelho
-        g.setColor(comida.getCor());
+        // Desenhar peixe (comida)
         Ponto pc = comida.getPonto();
-        g.fillOval(pc.getX() * TAMANHO_BLOCO, pc.getY() * TAMANHO_BLOCO, TAMANHO_BLOCO, TAMANHO_BLOCO);
-        g.setColor(Color.BLACK);
-        g.drawOval(pc.getX() * TAMANHO_BLOCO, pc.getY() * TAMANHO_BLOCO, TAMANHO_BLOCO, TAMANHO_BLOCO);
+        int x = pc.getX() * TAMANHO_BLOCO;
+        int y = pc.getY() * TAMANHO_BLOCO;
+        g.drawImage(imgPeixe, x, y, TAMANHO_BLOCO, TAMANHO_BLOCO, this);
+
         desenharPontuacao(g);
         if (!emJogo) {
             desenharTelaGameOver(g);
