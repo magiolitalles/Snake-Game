@@ -1,8 +1,9 @@
 import javax.swing.JFrame;
+import javax.swing.ImageIcon; // Adicionado para ícone personalizado
 
 public class JanelaPrincipal extends JFrame {
     public JanelaPrincipal() {
-        super("Snake Game - Projeto A3 - Grupo 2");
+        super("Shark Game - Projeto A3 - Grupo 2"); // Alterado nome da janela
         setDefaultLookAndFeelDecorated(true);       
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
@@ -10,6 +11,10 @@ public class JanelaPrincipal extends JFrame {
         this.add(tabuleiro);
         pack();
         setLocationRelativeTo(null);
+
+        // Define um ícone personalizado para a janela (opcional)
+        setIconImage(new ImageIcon("tubarao.png").getImage());
+
         setVisible(true);
         tabuleiro.iniciarJogo();
     }
