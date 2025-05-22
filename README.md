@@ -1,3 +1,14 @@
+
+# 2.0.0 - 22/05/2025 
+# Versão Base do Game
+# Java 24.0.1
+# Autor da Alteração : Talles Magioli
+
+#Game personalizado - Shark Game, no mesmo estilo do jogo da cobrinha, a personalização trata de um tubarão no fundo do mar atrás de peixinhos.
+# Destaques da Versão:
+# Tela inicial e Sistema de Ranking incluidos
+# Tela de fundo do Mar
+---
 # 1.0.0 - 21/05/2025 
 # Versão Base do Game
 # Java 24.0.1
