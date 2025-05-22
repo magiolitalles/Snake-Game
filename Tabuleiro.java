@@ -1,4 +1,6 @@
+import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
 import javax.swing.Timer;
 import javax.swing.ImageIcon;
 import java.awt.Color;
@@ -11,7 +13,7 @@ import java.awt.event.KeyListener;
 import java.awt.event.KeyEvent;
 
 public class Tabuleiro extends JPanel implements ActionListener, KeyListener {
-    private static final int TAMANHO_BLOCO = 20;
+    private static final int TAMANHO_BLOCO = 40;
     private int largura;
     private int altura;
     private Cobra cobra;
@@ -152,6 +154,7 @@ public class Tabuleiro extends JPanel implements ActionListener, KeyListener {
         String msg = "Game Over";
         String scoreMsg = "Pontuação final: " + pontuacao;
         String restartMsg = "Pressione ENTER para reiniciar";
+        String menuMsg = "Pressione ESC para voltar ao menu inicial";
         g.setColor(Color.RED);
         g.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 36));
         int msgWidth = g.getFontMetrics().stringWidth(msg);
@@ -164,14 +167,25 @@ public class Tabuleiro extends JPanel implements ActionListener, KeyListener {
         g.drawString(scoreMsg, (getWidth() - scoreWidth) / 2, y + 40);
         int restartWidth = g.getFontMetrics().stringWidth(restartMsg);
         g.drawString(restartMsg, (getWidth() - restartWidth) / 2, y + 80);
+        int menuWidth = g.getFontMetrics().stringWidth(menuMsg);
+        g.drawString(menuMsg, (getWidth() - menuWidth) / 2, y + 120);
     }
 
     @Override
     public void keyPressed(KeyEvent e) {
         int keyCode = e.getKeyCode();
-        if (!emJogo && keyCode == KeyEvent.VK_ENTER) {
-            iniciarJogo();
-            return;
+        if (!emJogo) {
+            if (keyCode == KeyEvent.VK_ENTER) {
+                iniciarJogo();
+                return;
+            } else if (keyCode == KeyEvent.VK_ESCAPE) {
+                // Voltar ao menu inicial
+                JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(this);
+                if (frame instanceof JanelaPrincipal) {
+                    ((JanelaPrincipal) frame).mostrarTelaInicial();
+                }
+                return;
+            }
         }
         Cobra.Direcao atual = cobra.getDirecaoAtual();
         switch (keyCode) {
