@@ -1,3 +1,13 @@
+# 1.0.0 - 21/05/2025 
+# Versão Base do Game
+# Java 24.0.1
+# Autor da Alteração : Talles Magioli
+#
+
+# Pra iniciar o game, clone o repositório e execute os arquivos de Tabuleiro.java e JanelaPrincipal.java enquanto não compilado. 
+
+
+
 # 🐍 Snake Game - Projeto Java
 
 Este é o repositório oficial do projeto em grupo para a disciplina de Programação de Soluções no semestre 25.1. O objetivo é desenvolver uma versão personalizada do clássico **Jogo da Cobrinha**, utilizando **Java**, com **interface gráfica**, **orientação a objetos**, **salvamento em arquivo `.txt`**, e aplicação de conceitos aprendidos ao longo do curso.
